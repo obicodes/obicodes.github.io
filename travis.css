@@ -317,7 +317,7 @@ p{
     } 
     body{
         font-size: 20px;
-        font-family: cursive;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding:10px 0 ;
     }
     #list{
