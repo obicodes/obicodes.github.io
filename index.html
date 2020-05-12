@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="travis.css" type="text/css">
 </head>
 <style>
 .reserve{
     text-align: center;
+   
     
 }
 </style>
@@ -28,7 +30,7 @@
                 </nav>
             </div>   
 <!-- header -->
-            <div class="indexheader"  style=" margin: 0px; padding-top: 70px;">
+            <div class="indexheader"  style=" margin: 0px; padding-top:20px;">
     <div >
         <img class="indeximg" src="images/laptop.jpg" alt="" srcset="">
     </div>
@@ -40,6 +42,7 @@
     <!-- end -->
     <!-- what to expect -->
     <div id="list">
+        <span>
     <p>
         <h3 class="whattoexpect" style=" padding-left: 10px;">
             What to expect
@@ -50,9 +53,9 @@
         <li><strong>25</strong> Workshops</li>
         <li><strong>800</strong> Registrations</li>
         <li><strong>2</strong> Days</li>
-    </ul
-    
-    ></div>
+    </ul>
+</span>
+</div>
     </header>
 <div class="floater">
     <div>
@@ -80,47 +83,54 @@
 
  <div class="tbg">
 
-    <div  class="reserve">
+   
+  <!-- table -->
+  <div class="tablebackground">
+       <div  class="reserve">
     <p >
       <h2 >
             Reserve Your Spot 
       </h2>
   </p>
   </div>
-  <table class="table1">
-    
-      <tr class="tr1">
-          <th>Standard</th>
-          <th>Premium</th>
 
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Basic</th>
+        <th scope="col">Standard</th>
+        <th scope="col">Premium</th>
       </tr>
-      <tr class="tr2">
-          <td>#5000</td>
-          <td>#10000</td>
-
-
+    </thead>
+    <tbody>
+      <tr>
+        <td>#2500</td>
+        <td>#5700</td>
+        <td>#8900</td>
       </tr>
-      <tr class="tr3">
-          <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel libero saepe quas cupiditate ab illo sapiente ut sequi impedit odit totam, facilis deserunt quibusdam illum reiciendis voluptatibus accusamus possimus! Accusantium.</td>
-          <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur officiis, unde aliquid architecto reiciendis ratione quae numquam dolor saepe cumque quibusdam quaerat officia, porro dolorum incidunt eum nemo dicta. Quidem?</td>
-
+      <tr>
+        
+        <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, exercitationem quisquam recusandae aliquam facilis hic ratione iure nobis labore debitis iusto architecto omnis. Maxime possimus quis ab odio consequatur sed?</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, amet exercitationem tenetur iusto eum fugiat quas animi voluptatum excepturi quo dolorem facere enim necessitatibus soluta accusantium id quisquam qui corporis.</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis enim quia blanditiis odit illo provident fugiat quasi similique dolore, ab suscipit beatae quos odio fuga, quis quam reprehenderit modi? Expedita.</td>
       </tr>
-       <tr class="tr4">
-           <td>
-               <button style="background-color: rgb(109, 171, 241);">
-                   <a class="button" href="">Buy Now</a>
-               </button>
-           </td>
-           <td>
-                <button style="background-color: rgb(109, 171, 241);">
-                    <a class="button" href="">Buy Now</a>
-                </button>
-            </td>
-       </tr>
-
+      <tr>
+        <td> <button style="background-color: rgb(109, 171, 241);">
+            <a class="button" href="">Buy Now</a>
+        </td>
+        <td>
+            <button style="background-color: rgb(109, 171, 241);">
+                <a class="button" href="">Buy Now</a>
+         </td>
+        <td>
+            <button style="background-color: rgb(109, 171, 241);">
+                <a class="button" href="">Buy Now</a>
+        </td>
+      </tr>
+    </tbody>
   </table>
-  
- </div>
+  </div>
+
  
     <p><h2 class="text">Speakers</h2></p>
 <div class="sections">
@@ -230,12 +240,16 @@
   <div  class="button"> <a class="butt" href="ticket.html">Tickets</a> </div>
     
     <p>countdown timer goes here</p>
+    
     </footer> 
 
-    <footer  style="background-color: rgb(48, 53, 53); color: #fff; text-align: center; margin: 0;  margin-top:0; border: 1px solid rgb(48,53,53);" >
+    <footer  style="background-color: rgb(48, 53, 53); background-color: #000; color: #fff; text-align: center; margin: 0;  margin-top:0; border: 1px solid rgb(48,53,53);" >
 
     <p>&copy; 2020 </p>
 
     </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>

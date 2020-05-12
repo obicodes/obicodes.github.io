@@ -48,10 +48,11 @@ color: #fff;
 
 }
 #list{
-    background-color: #ccc ;
+    background-color: hsla(89, 43%, 51%, 0.2);
+    background: linear-gradient(); 
      margin-top: 0px;
       padding: 30px; 
-    border: 1px solid rgb(187, 187, 187)
+    
 }
 .indeximg{
     display:inline-block;
@@ -71,32 +72,61 @@ body{
     background-color: #eee;
     margin-bottom: 0px;
     font-size: 18px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+.tablebackgrond{
+     background-color:hsla(89, 43%, 51%, 0.07);
+     padding-bottom: 50px;
+     background-image: url(images/bgg.jpg);
+     background-size: cover;
+}
+
+.table{
+   background-color: hsla(89, 43%, 51%, 0.5);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid #ccc;
+    
+    
+   
+}
+th{
+    background-color: hsla(89, 43%, 51%, 0.3);
+}
+td,th{
+    border-right:1px solid #ccc ;
 }
 
 
-.table1{
-    background-color: #bbb;
 
-}
 .footer{
-    background-color: #bbb;
+    background-color: rgb(100, 94, 94);
     padding-left: 1%;
-    margin: 0;
-    border:20px solid #bbb;
+    margin-top: 20px;
+    background-image: url(images/bgg.jpg);
+    background-size: cover;
+padding-bottom: 10px;
+    
+    
 }
+
 .day1{
     
     width:49%;
     float: left;
-    
+    padding-bottom: 24px;
     border-right: solid 1px #bbb;
     border-top: solid 1px #bbb;
+    border-bottom: solid 1px #bbb;
 }
 .day2{
     
    width: 49%;
     float: right;
     border-left: solid 1px #bbb;
+    border-bottom: solid 1px #bbb;
     border-top: solid 1px #bbb;
 
 }
@@ -123,35 +153,14 @@ body{
 
 .sec{
     display: inline-block;
-    background-color: rgb(240, 238, 238);
+    background-color: rgb(89, 142, 241);
     overflow: auto;
+    background: transparent;
+    border-radius: 10%;
+    
 
-}
-.tbg{
-    background-color: #ccc;
-}
-
-    table1{
-        
-        text-transform: capitalize;
-        text-align: center;
-        height: 50%;
-        padding: 0px 200px 30px 200px;
-        word-spacing: 1px;
     }
-table td,th{
-    border:30px solid  red transparent;
-    border-radius: 4px;
-    padding: 10px;
 
-}
-.tr1{
-    background-color: #aaa;
-}
-.tr2,.tr3,.tr4{
-    background-color: #eee;
-
-}
 td:hover{
     background-color: #fff;
     font-size: large;
@@ -190,8 +199,11 @@ img:hover{
 }
  
 footer{
+    
     text-align: center;
+
 }
+
 /* input decorations */
 .input{
     padding:4px;
@@ -246,6 +258,9 @@ p{
         display: flex;
         flex-wrap: wrap;
         align-content: space-around;
+        width: 100%;
+        margin: 0px;
+        font-size: xx-small;
         
     }
     section{
@@ -316,7 +331,6 @@ p{
         color: rgb(20, 3, 3)
     } 
     body{
-        font-size: 20px;
         font-family:serif;
         padding:10px 0 ;
     }
@@ -358,4 +372,5 @@ p{
          padding: 0px;
          margin: 0%;
     }
+    
 }
