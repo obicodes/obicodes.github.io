@@ -331,7 +331,12 @@ p{
         color: rgb(20, 3, 3)
     } 
     body{
+<<<<<<< HEAD
         font-family:serif;
+=======
+        font-size: 20px;
+        font-family: serif;
+>>>>>>> 17521b1bbea1c42b78a8b80a729d7ea0fd1882cd
         padding:10px 0 ;
     }
     #list{
